@@ -1,12 +1,12 @@
-
 import './App.css';
+import TablaJugadoresContainer from './Stats/pages/TablaJugadoresContainer'
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-       <h1>Prueba Mesta</h1>
-      </header>
+     
+       <TablaJugadoresContainer></TablaJugadoresContainer>
+
     </div>
   );
 }
